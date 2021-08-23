@@ -1,3 +1,63 @@
-body {
-    background: yellowgreen;
+*,
+::after, ::before {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin-left: o;
+   margin-right: 0;
+   margin-bottom: 0;
+   margin-top: 0;
+}
+
+ul,
+ol,
+li {
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 0;
+}
+img {
+   display: block;
+}
+
+.hero__section {
+    max-width: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/bg.jpg);
+}
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+background-image: url(../images/bg@2x.jpg);
+}
+.hero__container {
+    width: 1600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+.header__text {
+    color:brown;
+    margin-left: 250px;
+}
+.address-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 400px;
+}
+.address {
+    text-align: center;
+}
+.contacts {
+    margin-left: 100px;
 }
