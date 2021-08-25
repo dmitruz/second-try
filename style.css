@@ -115,10 +115,10 @@ background-image: url(../images/bg@2x.jpg);
 }
 .wish__text {
     font-style: normal;
-    font-size: 40px;
+    font-size: 36px;
     color: #2e363e;
     margin-top: 400px;
-    margin-left: 250px;
+    margin-left: 400px;
 
 }
 
@@ -129,6 +129,7 @@ background-image: url(../images/bg@2x.jpg);
     padding-top: 100px;
 }
 .cardset__block {
+    width: 1180px;
     margin-left: 210px;
     margin-right: 210px;;
 }
@@ -143,4 +144,43 @@ background-image: url(../images/bg@2x.jpg);
     flex-basis: calc((100% - 60px) /3);
     margin-left: 20px;
     margin-bottom: 20px;
+}
+.card__content {
+   width: 380px;
+   padding-left: 20px;
+   padding-top: 20px;
+   border-bottom: 1px solid #f1f1f1;
+   border-left: 1px solid #f1f1f1;
+   border-right: 1px solid #f1f1f1;
+   border-radius: 4px;
+   
+   box-shadow: 2px 8px 16px 0px #C2C6D00F;
+
+}
+.card-paragraph {
+    font-size: 24px;
+    color: #2e363e;
+    margin-bottom: 20px;
+    
+}
+.card-text {
+    font-size: 16px;
+    color: #2e363e;
+    
+    
+}
+.prize {
+    margin-top: 20px;
+    color: #434b53;
+    font-weight: bold;
+    font-size: 24px;;
+    display: block;
+}
+.order-btn {
+    width: 150px;
+    height: 60px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background: #fed84c;
+    color: #2e363e;
 }
